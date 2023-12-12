@@ -80,7 +80,7 @@ h1 {
     padding: 10px;
     border-radius: 3px;
     /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
-    border-bottom: 3px solid rgba(244, 185, , 0.4);
+    border-bottom: 3px solid rgba(244, 185, 0.4);
     transition: opacity 0.2s;
   }
 
@@ -113,7 +113,7 @@ h1 {
     padding: 10px;
     border-radius: 3px;
     /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
-    border-bottom: 2px solid rgba(244, 185, , 0.4);
+    border-bottom: 2px solid rgba(244, 185, 0.4);
     margin-left: 40px;
     transition: opacity 0.2s;
   }
