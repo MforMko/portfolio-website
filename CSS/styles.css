@@ -292,7 +292,17 @@ table {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
-form {
+.contact_form {
   text-align: center;
-  display: ;
+}
+
+.contact_form_box {
+  width: 200px;
+  margin: auto;
+}
+
+.contact_me_title {
+  font-size: large;
+  width: 100%;
+  text-align: center;
 }
