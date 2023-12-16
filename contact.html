@@ -49,18 +49,23 @@
     <a href="mailto:enquiries@mformk.o.com?subject=Enquiry%20re%3A">Contact me
     </a>
 
-    <form action="update" method="post">
-      <label class="standard-label" for="contact-email">E-mail: </label>
-      <input type="email" id="contact-email" required>
+    <div class="contact_form">
+      <form action="update" method="post">
+        <fieldset class="contact_form_box">
+        <legend>Contact details</legend>
+        <label class="standard-label" for="contact-email">E-mail: </label><br>
+        <input type="email" id="contact-email" required><br>
 
-      <label class="standard-label data_label" for="contact-telephone">Telephone: </label>
-      <input type="tel" id="contact-telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+        <label class="standard-label data_label" for="contact-telephone">Telephone: </label><br>
+        <input type="tel" id="contact-telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br>
 
-      <label class="standard-label data_label" for="contact-message">Message: </label>
-      <textarea id="contact-message" maxlength="240" required></textarea>
+        <label class="standard-label data_label" for="contact-message">Message: </label><br>
+        <textarea id="contact-message" maxlength="240" required></textarea><br>
 
-      <input class="contact-button" type="submit" value="Send message">
-    </form>
+        <input class="contact-button" type="submit" value="Send message">
+      </fieldset>
+      </form>
+    </div>
 
   </main>
   <footer>
